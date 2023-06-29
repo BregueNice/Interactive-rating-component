@@ -1,0 +1,100 @@
+:root{
+    --branca: hsl(0, 0%, 100%);
+    --cinza-claro: hsl(217, 12%, 63%);
+    --cinza-medio: hsl(215, 12%, 32%);
+    --azul-escuro: hsl(213, 19%, 18%);
+    --azul-escuro2: hsl(212, 19%, 15%);
+    --azul-mais: hsl(216, 12%, 8%);
+    --laranja: hsl(25, 97%, 53%);
+    --fonte: 'Overpass', sans-serif;
+}
+
+*{
+    font-family: var(--fonte);
+}
+
+body{
+    background-color: var(--azul-mais);;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: var(--branca);
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+p{
+    font-weight: 400;
+    color: var(--cinza-claro);
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, var(--azul-escuro2), rgba(31, 31, 36, 0.548));
+    width: 350px;
+    height: 370px;
+    padding: 20px 20px 0px 20px;
+    padding-inline: 30px;
+    border-radius: 30px;
+    justify-content: space-evenly;
+}
+
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.bola{
+    background-color: var(--cinza-medio);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: var(--branca);
+}
+
+.bola1{
+    background-color: var(--cinza-medio);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.bola:hover{
+    background-color: var(--cinza-claro);
+}
+
+.bola:focus{
+    background-color: var(--laranja);
+}
+
+.botao{
+    background-color: var(--laranja);
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+    padding-top: 12px;
+    color: var(--branca);
+}
+
+.botao:hover{
+    background-color: var(--branca);
+    color: var(--laranja);
+}
