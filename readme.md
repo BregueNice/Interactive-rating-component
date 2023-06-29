@@ -1,0 +1,1 @@
+esse é um projeto de uma componente de avaliação interativo
