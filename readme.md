@@ -1,4 +1,4 @@
-#Cmponente de avaliação interativo#
+#Componente de avaliação interativo
 
 esse é um projeto de uma componente de avaliação interativo
 
